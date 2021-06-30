@@ -7,10 +7,10 @@ function createWindow () {
   win = new BrowserWindow({
     width: 600, 
     height: 670,
-    icon: `file://${__dirname}src/assets/logo.png`
+    icon: `file://${__dirname}/src/logo.png`
   })
 
-  win.loadURL(`file://${__dirname}/dist/index.html`)
+  win.loadURL(`file://${__dirname}/dist/redux/index.html`)
 
   // uncomment below to open the DevTools.
   // win.webContents.openDevTools()
