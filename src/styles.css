@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #151515;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
