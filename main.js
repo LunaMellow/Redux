@@ -7,7 +7,7 @@ function createWindow () {
   win = new BrowserWindow({
     width: 600, 
     height: 670,
-    icon: `file://${__dirname}/dist/assets/logo.png`
+    icon: `file://${__dirname}dist\redux\Redux Logo.png`
   })
 
   win.loadURL(`file://${__dirname}/dist/index.html`)
