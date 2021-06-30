@@ -39,3 +39,14 @@ app.on('activate', function () {
     createWindow()
   }
 })
+
+const { Notification } = require('electron')
+
+const NOTIFICATION_TITLE = 'Welcome back!'
+const NOTIFICATION_BODY = 'Redux is now '
+
+function showNotification () {
+  new Notification({ title: NOTIFICATION_TITLE, body: NOTIFICATION_BODY }).show()
+}
+
+app.whenReady().then(createWindow).then(showNotification)
