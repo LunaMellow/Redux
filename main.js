@@ -43,7 +43,7 @@ app.on('activate', function () {
 const { Notification } = require('electron')
 
 const NOTIFICATION_TITLE = 'Welcome back!'
-const NOTIFICATION_BODY = 'Redux is now '
+const NOTIFICATION_BODY = 'Redux is now stable'
 
 function showNotification () {
   new Notification({ title: NOTIFICATION_TITLE, body: NOTIFICATION_BODY }).show()
